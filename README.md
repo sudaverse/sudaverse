@@ -385,12 +385,12 @@ python benchmark/run.py --model outputs/model/
 
 | Component | Status | Version | Last Updated |
 |:---------:|:------:|:-------:|:------------:|
-| SudaTutor | ![Production](https://img.shields.io/badge/-Production-brightgreen) | v6.0 | 2024-Q4 |
-| SuData | ![Active](https://img.shields.io/badge/-Active-blue) | v2.1 | 2024-Q4 |
-| Corpus Refinery | ![Stable](https://img.shields.io/badge/-Stable-green) | v1.5 | 2024-Q3 |
-| Synthetic Gen | ![Dev](https://img.shields.io/badge/-In%20Development-yellow) | - | 2025-Q1 |
-| Benchmark | ![Dev](https://img.shields.io/badge/-In%20Development-yellow) | - | 2025-Q1 |
-| Data Hub | ![Planned](https://img.shields.io/badge/-Planned-lightgrey) | - | 2025-Q2 |
+| SudaTutor | ![Production](https://img.shields.io/badge/-Production-brightgreen) | v6.0 | 2025-Q3 |
+| SuData | ![Active](https://img.shields.io/badge/-Active-blue) | v2.1 | 2025-Q3 |
+| Corpus Refinery | ![Stable](https://img.shields.io/badge/-Stable-green) | v1.5 | 2025-Q3 |
+| Synthetic Gen | ![Dev](https://img.shields.io/badge/-In%20Development-yellow) | - | 2025-Q4 |
+| Benchmark | ![Dev](https://img.shields.io/badge/-In%20Development-yellow) | - | 2025-Q4 |
+| Data Hub | ![Planned](https://img.shields.io/badge/-Planned-lightgrey) | - | 2026-Q1 |
 
 </div>
 
@@ -549,6 +549,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License - Copyright (c) 2024 Sudaverse Contributors
 ```
+</div>
 
 ### Citation
 
@@ -563,7 +564,6 @@ If you use Sudaverse in your research, please cite:
 }
 ```
 
-</div>
 
 ---
 
@@ -571,7 +571,7 @@ If you use Sudaverse in your research, please cite:
 
 Sudaverse exists thanks to:
 
-- 🌟 All our amazing [contributors](https://github.com/sudaverse/sudaverse/graphs/contributors)
+- 🌟 All our amazing contributors
 - 💡 The open-source AI/ML community
 - 🇸🇩 Sudanese linguists and cultural experts
 - 🤝 Partner organizations and academic institutions
