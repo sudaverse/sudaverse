@@ -51,7 +51,7 @@ Sudaverse Ecosystem
 ├── Corpus Refinery       → High‑scale corpus cleaning using AI
 ├── Synthetic Data Gen    → Dialect‑aware synthetic data generation
 ├── Sudanese Benchmark    → Tokenizer & LLM dialect evaluation
-└── SudaTutor             → Educational AI tutor
+└── SudaTutor             → Curriculum‑anchored educational RAG
 ```
 
 Each component plugs into the next to form a complete dialect‑focused AI development pipeline.
@@ -60,19 +60,45 @@ Each component plugs into the next to form a complete dialect‑focused AI devel
 
 ## 📚 Subsidiary Projects
 
-| Project       | Role in Ecosystem                                                                                                                                                                                  | Key Features                                                                        | Repository |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- |
-| **SudaTutor** | AI-powered educational tutor tailored to the **Sudanese curriculum**  — the first pilot LLM product under Sudaverse, designed for Grades 1–12 with curriculum‑anchored answers. | - Curriculum-specific advanced RAG system |            |
+### 📁 Repository Index
 
-* Covers **117 subjects** across primary and secondary tracks
-* Bilingual (Arabic & English), source‑grounded answers with citations
-* Production & dev deploy guides (Docker, Vite, scripts for creating File Search stores)
-* Prereqs: Node.js ≥18, npm ≥9, (see repo)
-  | **SuData** |
-  Normalization & curation pipeline | - Noise, emoji, PII cleanup<br>- Dialect spelling normalization<br>- Exports JSON/CSV/JSONL datasets | [https://github.com/O96a/SuData](https://github.com/O96a/SuData) |
-  | **Corpus Refinery (LLMCorpusKit)** | High‑scale Arabic corpus cleaning | - Uses Gemini for deep cleaning<br>- Punctuation/spacing repair<br>- Batch processing for millions of lines | [https://github.com/O96a/LLMCorpusKit](https://github.com/O96a/LLMCorpusKit) |
-  | **Synthetic Data Generator** | Generates Sudanese synthetic text | - Region‑aware dialect simulation<br>- Dialogue, slang, storytelling<br>- Fills data gaps for training | *(Repo link pending)* |
-  | **Sudanese Dialect Benchmark** | Tokenizer/model evaluator | - Measures token count efficiency<br>- Slang + dialect coverage<br>- Supports BPE, SP, WordPiece | *(Repo link pending)* |
+A quick-access table listing all Sudaverse ecosystem repositories and utilities.
+
+| Project Name                       | Description                                       | Repository Link                                                              |
+| ---------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **SudaTutor**                      | Sudanese Curriculum‑anchored educational RAG      | [https://github.com/O96a/sudatutor-v6](https://github.com/O96a/sudatutor-v6) |
+| **SuData**                         | COmplete Data normalization & curation pipeline   | [https://github.com/O96a/SuData](https://github.com/O96a/SuData)             |
+| **Corpus Refinery (LLMCorpusKit)** | Cleaning & refining large Arabic corpora          | [https://github.com/O96a/LLMCorpusKit](https://github.com/O96a/LLMCorpusKit) |
+| **Synthetic Data Generator**       | Synthetic Sudanese dialect data generation        | *(Link coming soon)*                                                         |
+| **Sudanese Dialect Benchmark**     | Tokenizer benchmark optimized for Sudanese Arabic | *(Link coming soon)*                                                         |
+
+---
+
+Below is a comprehensive summary of the core and satellite projects that make up the Sudaverse ecosystem. Each row includes the project's role, quick feature highlights, repository link, and current status.
+
+
+
+* 117 subjects across primary & secondary tracks
+* Bilingual (Arabic & English), source-grounded answers with citations
+* Docker & Vite deployment guides; dev & production instructions | [https://github.com/O96a/sudatutor-v6](https://github.com/O96a/sudatutor-v6) | ✅ Public / Production-ready (pilot)
+  | **SuData** | End‑to‑end data normalization & curation pipeline | - Robust cleaning (noise, emojis, HTML)
+* Dialect-aware spelling normalization & deduplication
+* PII removal, tokenization friendliness
+* Exports JSON / JSONL / CSV for model training | [https://github.com/O96a/SuData](https://github.com/O96a/SuData) | ✅ Public / Actively maintained
+  | **Corpus Refinery (LLMCorpusKit)** | Large-scale Arabic corpus cleaning & polishing | - Deep-cleaning workflows (sentence repair, punctuation, spacing)
+* Integrates with AI APIs for semantic repairs (Gemini / similar)
+* Bulk & streaming processors for millions of lines | [https://github.com/O96a/LLMCorpusKit](https://github.com/O96a/LLMCorpusKit) | ✅ Public / Stable
+  | **Synthetic Data Generator** | High-quality Sudanese dialect synthetic text generator | - Region-aware dialect simulation (Khartoum, Darfur, East, South)
+* Dialogue, scenario, and instruction-style data formats
+* Controls for style, register, and sentiment balance | *(Link: coming soon — will be added here)* | ⚠️  Link pending
+  | **Sudanese Dialect Benchmark** | Tokenizer & model benchmark tailored to Sudanese Arabic | - Tokenization accuracy & efficiency metrics
+* Coverage tests for slang, orthographic variants, elongations
+* Evaluates major tokenizers: SentencePiece, BPE, WordPiece, TikToken | *(Link: coming soon — will be added here)* | ⚠️  Link pending
+  | **Data Hub (Future)** | Central registry & metadata catalog for datasets | - Dataset manifests, licensing, contributor credits
+* Versioning, sample previews, and download links | *(TBD)* | ⚠️ Planned
+
+> Tip: click a repository link to open its README for full install & usage instructions.
+
 
 ---
 
@@ -182,7 +208,8 @@ Use **Issues** for bugs & proposals, and **Discussions** for planning.
 * **Website:** [https://www.sudaverse.com](https://www.sudaverse.com)
 * **Email:** [team@sudaverse.com](mailto:team@sudaverse.com)
 * **Docs:** See each sub‑repo's `docs/`
-* **Discord ([Server Link](https://discord.gg/3nbnQ9Cy))**
+* **Twitter/X (coming soon)**
+* **Discord (coming soon)**
 
 ---
 
