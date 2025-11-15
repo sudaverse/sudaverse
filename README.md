@@ -1,4 +1,4 @@
-# Sudaverse Ecosystem
+# 🌌 Sudaverse Ecosystem
 
 **Building Sudanese Arabic into the Heart of AI**
 An open‑source AI ecosystem dedicated to developing, training, evaluating, and scaling models that understand and generate **Sudanese Arabic dialect** — built for culture, community, and the future.
@@ -51,7 +51,7 @@ Sudaverse Ecosystem
 ├── Corpus Refinery       → High‑scale corpus cleaning using AI
 ├── Synthetic Data Gen    → Dialect‑aware synthetic data generation
 ├── Sudanese Benchmark    → Tokenizer & LLM dialect evaluation
-└── SudaTutor             → Fine‑tuned Sudanese‑Arabic LLM
+└── SudaTutor             → Educational AI tutor
 ```
 
 Each component plugs into the next to form a complete dialect‑focused AI development pipeline.
@@ -60,13 +60,19 @@ Each component plugs into the next to form a complete dialect‑focused AI devel
 
 ## 📚 Subsidiary Projects
 
-| Project                            | Role in Ecosystem                  | Key Features                                                                                                | Repository                                                                   |
-| ---------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **SudaTutor**                      | Fine‑tuned LLM for Sudanese Arabic | - First Sudanese‑dialect LLM<br>- Tuned on real + synthetic corpora<br>- Strong conversational ability      | [https://github.com/O96a/sudatutor-v6](https://github.com/O96a/sudatutor-v6) |
-| **SuData**                         | Normalization & curation pipeline  | - Noise, emoji, PII cleanup<br>- Dialect spelling normalization<br>- Exports JSON/CSV/JSONL datasets        | [https://github.com/O96a/SuData](https://github.com/O96a/SuData)             |
-| **Corpus Refinery (LLMCorpusKit)** | High‑scale Arabic corpus cleaning  | - Uses Gemini for deep cleaning<br>- Punctuation/spacing repair<br>- Batch processing for millions of lines | [https://github.com/O96a/LLMCorpusKit](https://github.com/O96a/LLMCorpusKit) |
-| **Synthetic Data Generator**       | Generates Sudanese synthetic text  | - Region‑aware dialect simulation<br>- Dialogue, slang, storytelling<br>- Fills data gaps for training      | *(Repo link pending)*                                                        |
-| **Sudanese Dialect Benchmark**     | Tokenizer/model evaluator          | - Measures token count efficiency<br>- Slang + dialect coverage<br>- Supports BPE, SP, WordPiece            | *(Repo link pending)*                                                        |
+| Project       | Role in Ecosystem                                                                                                                                                                                  | Key Features                                                                        | Repository |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- |
+| **SudaTutor** | AI-powered educational tutor tailored to the **Sudanese curriculum**  — the first pilot LLM product under Sudaverse, designed for Grades 1–12 with curriculum‑anchored answers. | - Curriculum-specific advanced RAG system |            |
+
+* Covers **117 subjects** across primary and secondary tracks
+* Bilingual (Arabic & English), source‑grounded answers with citations
+* Production & dev deploy guides (Docker, Vite, scripts for creating File Search stores)
+* Prereqs: Node.js ≥18, npm ≥9, (see repo)
+  | **SuData** |
+  Normalization & curation pipeline | - Noise, emoji, PII cleanup<br>- Dialect spelling normalization<br>- Exports JSON/CSV/JSONL datasets | [https://github.com/O96a/SuData](https://github.com/O96a/SuData) |
+  | **Corpus Refinery (LLMCorpusKit)** | High‑scale Arabic corpus cleaning | - Uses Gemini for deep cleaning<br>- Punctuation/spacing repair<br>- Batch processing for millions of lines | [https://github.com/O96a/LLMCorpusKit](https://github.com/O96a/LLMCorpusKit) |
+  | **Synthetic Data Generator** | Generates Sudanese synthetic text | - Region‑aware dialect simulation<br>- Dialogue, slang, storytelling<br>- Fills data gaps for training | *(Repo link pending)* |
+  | **Sudanese Dialect Benchmark** | Tokenizer/model evaluator | - Measures token count efficiency<br>- Slang + dialect coverage<br>- Supports BPE, SP, WordPiece | *(Repo link pending)* |
 
 ---
 
@@ -88,9 +94,6 @@ Each component plugs into the next to form a complete dialect‑focused AI devel
  Synthetic Data Generator            Clean Final Corpus
          │                                │
          └───────────────┬────────────────┘
-                         ▼
-                    [ SudaTutor ]
-     Fine‑tuning → evaluation → dialect optimization
                          │
                          ▼
           [ Sudanese Dialect Benchmark ]
