@@ -9,7 +9,7 @@
 [![Contributors](https://img.shields.io/github/contributors/sudaverse/sudaverse.svg)](https://github.com/sudaverse/sudaverse/graphs/contributors)
 [![Stars](https://img.shields.io/github/stars/sudaverse/sudaverse.svg)](https://github.com/sudaverse/sudaverse/stargazers)
 
-<img src="https://raw.githubusercontent.com/ruvnet/agentic-flow/main/assets/logo.png" width="180" alt="Sudaverse Logo"/>
+<img src="[https://raw.githubusercontent.com/ruvnet/agentic-flow/main/assets/logo.png](https://scontent-doh1-1.xx.fbcdn.net/v/t39.30808-6/542106865_122099756636999733_6981859291231249016_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hqsOFN2_XxEQ7kNvwFfqOg_&_nc_oc=Adm71y4QPjvBLInDLSxX_iYdUdGW4pxFjNUJg016zVERFrDjOPf7sm29XUSOeWlceAg&_nc_zt=23&_nc_ht=scontent-doh1-1.xx&_nc_gid=QgY2j7LYOOozSNUhrgQ02w&oh=00_Afh6jSPpHuA5VXkTFqMM8eS3dV4E_QTtZS4OF4o2-uu8dQ&oe=691ED6CD)" width="180" alt="Sudaverse Logo"/>
 
 **An open-source AI ecosystem dedicated to developing, training, evaluating, and scaling models that understand and generate Sudanese Arabic dialect — built for culture, community, and the future.**
 
