@@ -209,7 +209,7 @@ Use **Issues** for bugs & proposals, and **Discussions** for planning.
 * **Email:** [team@sudaverse.com](mailto:team@sudaverse.com)
 * **Docs:** See each sub‑repo's `docs/`
 * **Twitter/X (coming soon)**
-* **Discord (coming soon)**
+* **Discord ([Server Link](https://discord.gg/3nbnQ9Cy))**
 
 ---
 
