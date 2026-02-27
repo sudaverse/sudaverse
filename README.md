@@ -2,7 +2,7 @@
 
 # 🌌 Sudaverse Ecosystem
 
-### Building Sudanese Dialect into the Heart of AI
+### PRESERVING SUDANESE HERITAGE IN THE DIGITAL AGE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&logo=discord&logoColor=white)](https://discord.gg/3nbnQ9Cy)
